@@ -1,0 +1,20 @@
+README.md
+  s_48c8beaabaf10a::t_25e5305b61deb4 37
+  s_48c8beaabaf10a::t_f8bf58f3dd4de0 20,23,26,29,32-36,39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "ccfd809b6fca875c90dbfdfdfae622937fddbc26",
+  "prompts": {},
+  "sessions": {
+    "s_48c8beaabaf10a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60c4f031-cc9e-41ab-88ba-4dc1b56b41b0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Rayhan Noufal Arayilakath <me@rayhanadev.com>"
+    }
+  }
+}
