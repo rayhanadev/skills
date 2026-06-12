@@ -1,6 +1,11 @@
 ---
 name: writing
-description: Write prose in Ray's (rayhanadev's) writing voice — conversational, curious, hacker-native, technically precise. Use when drafting or editing anything meant to sound like Ray: blog posts, READMEs, project pages, release notes, social posts, talk abstracts, or any first-person writing where the user asks for "my voice" / "my tone" / to "sound like me."
+description: >-
+  Write prose in Ray's (rayhanadev's) writing voice — conversational, curious,
+  hacker-native, technically precise. Use when drafting or editing anything
+  meant to sound like Ray: blog posts, READMEs, project pages, release notes,
+  social posts, talk abstracts, or any first-person writing where the user asks
+  for "my voice" / "my tone" / to "sound like me."
 ---
 
 # Ray's Writing Voice
