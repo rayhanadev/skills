@@ -17,24 +17,26 @@ A skill is just a folder with a `SKILL.md` inside: YAML frontmatter (a `name` an
 
 ## Install
 
-These are written to be project-agnostic, so they work as **personal skills** available in every project.
-
-Clone the repo and copy (or symlink) each skill into your Claude Code skills directory:
+Install with [`agent-install`](https://www.npmjs.com/package/agent-install), which pulls `SKILL.md` files straight from GitHub. Grab the CLI if you don't have it:
 
 ```sh
-git clone https://github.com/rayhanadev/skills.git
-cp -r skills/skills/* ~/.claude/skills/
+bun install -g agent-install   # or: npm i -g agent-install
 ```
 
-Or symlink the folder so you stay up to date with `git pull`:
+These are written to be project-agnostic, so install them globally and they're available in every project:
 
 ```sh
-ln -s "$PWD/skills/skills"/* ~/.claude/skills/
+agent-install skill add rayhanadev/skills --global
 ```
 
-To scope a skill to a single project instead, drop it in that repo's `.claude/skills/` directory.
+Drop `--global` to install into the current project instead. Handy flags:
 
-Restart Claude Code (or start a new session) and the skills show up — type `/` to see them, or just describe what you want and the matching one gets invoked.
+- `--skill writing` — install just one skill instead of all four.
+- `--agent claude` — install for a specific coding agent (use `*` for all).
+- `--list` — list the skills in this repo without installing.
+- `--copy` — copy the files instead of symlinking them (symlinking is the default).
+
+Start a new session and the skills show up — type `/` to see them, or just describe what you want and the matching one gets invoked.
 
 ## Using them
 
