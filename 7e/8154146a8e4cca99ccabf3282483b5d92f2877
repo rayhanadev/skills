@@ -1,0 +1,23 @@
+skills/writing/SKILL.md
+  s_48c8beaabaf10a::t_1740b2d9a373d7 2
+  s_48c8beaabaf10a::t_88fe52b15949fe 6
+README.md
+  s_48c8beaabaf10a::t_3ea4dd10727ce6 41
+  s_48c8beaabaf10a::t_8fcd04c3b67555 14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "7e8154146a8e4cca99ccabf3282483b5d92f2877",
+  "prompts": {},
+  "sessions": {
+    "s_48c8beaabaf10a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60c4f031-cc9e-41ab-88ba-4dc1b56b41b0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Rayhan Noufal Arayilakath <me@rayhanadev.com>"
+    }
+  }
+}
